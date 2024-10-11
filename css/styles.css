@@ -41,7 +41,6 @@ img {
 }
 
 .header {
-  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -53,6 +52,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .contacts-list {
@@ -214,7 +214,6 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-
   max-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
@@ -227,16 +226,16 @@ img {
 
 .team-item {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-image {
 }
 
 .team-text {
-  padding: 32px 0;
+  padding: 32px 16px;
   text-align: center;
   margin-bottom: 8px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
